@@ -31,3 +31,8 @@ CommandLine flags: -XX:+ExplicitGCInvokesConcurrent -XX:GCLogFileSize=104857600 
       [Free CSet: 0.0 ms]
    [Eden: 25.0M(25.0M)->0.0B(21.0M) Survivors: 0.0B->4096.0K Heap: 25.0M(512.0M)->3855.8K(512.0M)]
  [Times: user=0.02 sys=0.00, real=0.01 secs] 
+Heap
+ garbage-first heap   total 524288K, used 21263K [0x00000007a0000000, 0x00000007a0101000, 0x00000007c0000000)
+  region size 1024K, 22 young (22528K), 4 survivors (4096K)
+ Metaspace       used 11014K, capacity 11196K, committed 11392K, reserved 1058816K
+  class space    used 1256K, capacity 1320K, committed 1408K, reserved 1048576K
